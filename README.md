@@ -1,1 +1,2 @@
 # CSCI-544_project
+We demonstrate how an ensemble LLM approach can improve performance on such problems by having one LLM first decompose a given problem into subproblems that require fewer reasoning steps and then having a second solver LLM iteratively solve the subproblems. The built up context by the solver LLM is then used to answer the original question. Additionally, we demonstrate how a smaller LLM fine tuned for the task of question decomposition can lead to performance in this task at or above a foundational LLM not fine tuned for question decomposition.
